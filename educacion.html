@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Educación</title>
+</head>
+<body style="background-color: rgb(241, 245, 245)">
+    <header>
+        <h1>Hoja de Vida - Jhon Builes</h1>
+    </header>
+    <hr>
+    <nav>
+        <a href="educacion.html" target="_blank">Educación</a> |
+        <a href="multimedia.html" target="_blank">Multimedia</a> |
+        <a href="index.html" target="_blank">Principal</a> <hr>
+    </nav>
+    <main>
+        <h2>Educación Recibida</h2>
+        <table border="i">
+            <thead>
+                <tr>
+                    <th>Año</th>
+                    <th>Institucion</th>
+                    <th>Lugar</th>
+                    <th>Titulo</th>
+                    <th>¿Culminado?</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>2011</td> 
+                    <td>Antonio Jose Bernal</td>
+                    <td>Medellin</td>
+                    <td>Bachiller Tecnico</td>
+                    <td>Si</td>
+                    <!--  -->
+                </tr>
+                <tr>
+                    <td>2018</td>
+                    <td>ITM</td>
+                    <td>Medellin</td>
+                    <td>Ingeniero Electronico</td>
+                    <td>Si</td>
+                </tr>
+                <tr>
+                    <td>2019</td>
+                    <td>Dev.F</td>
+                    <td>Medellin</td>
+                    <td>Desarrollo Web</td>
+                    <td>No</td>
+                </tr>
+            </tbody>
+        </table>
+        <br>
+        <form>
+            <fieldset>
+                <legend><h2>Agregar Estudios</h2></legend>
+                <label for="años">Año </label>
+                <select name="años">
+                    <option value="2019">2019</option>
+                    <option value="2018">2018</option>
+                    <option value="2017">2017</option>
+                    <option value="2016">2016</option>
+                    <option value="2015">2015</option>
+                </select>
+                <br><br> 
+                <label for="inst">Institución </label> <br>          
+                <input type="text" name="inst" placeholder="Ingrese su institución" required>
+                <input type="number" placeholder="Ingrese su edad">
+                <input type="password" placeholder="Ingrese su contraseña" required>
+                <input type="date">
+                <input type="email" placeholder="Ingrese su email">
+                <br><br>
+                <label for="Comentarios" name="com">Comentarios</label>
+                <br>
+                <textarea name="com" id="" cols="50" rows="10"></textarea>
+                <br><br>
+                <input type="radio" name="genero" value="M"> Masculino
+                <input type="radio" name="genero" value="F"> Femenino
+                <br><br>
+                <h5>¿Culminado?</h5>
+                <input type="checkbox"> Si
+                <input type="checkbox"> No
+                <br><br>
+                <input type="submit">
+                            
+            </fieldset>
+
+        </form>
+        <form>
+            <fieldset>
+                <legend><h2>Contactanos</h2></legend>
+                <label for="nombre">Nombre </label> <br>          
+                <input type="text" name="nombre" placeholder="Ingrese su nombre"> <br>
+                <label for="correo">Email </label> <br>          
+                <input type="text" name="correo" placeholder="Ingrese su mensaje"> <br>
+                <label for="menj" name="com">Mensaje</label> <br>
+                <textarea name="menj" cols="50" rows="10"></textarea>
+                <br><br>
+                <input type="submit">
+            </fieldset>
+        </form>    
+    </main>  
+    <hr>   
+    <footer>
+        <p>Derechos reservados. 2019 <a href=https://www.linkedin.com/in/jhon-eduard-builes-agudelo-425316142 >Linkedin</a></p>
+    </footer>
+</body>
+</html>
