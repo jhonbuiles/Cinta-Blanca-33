@@ -1,0 +1,23 @@
+body {
+    background-color: rgb(174, 229, 255);
+    font-family: 'Livvic', sans-serif; 
+}
+a{
+    color: rgb(41, 224, 35);
+    font-size: 20px;
+    text-decoration: none;    
+}
+#nombre{
+    color: darkred;
+}
+.cajas{
+    border: 1px solid rgb(40, 2, 250);
+    margin-bottom: 20px;
+    padding: 20px;
+}
+.encabezado{
+    border: 1px solid yellowgreen;
+}
+h1, nav{
+    display: inline;
+}
